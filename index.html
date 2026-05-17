@@ -42,18 +42,21 @@
     />
 
     <head>
+      <!-- Google Analytics -->
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-AB12CD34EF"
+      ></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-AB12CD34EF"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-9SJ08P6HEF');
-  </script>
-
-</head>
+        gtag("config", "G-9SJ08P6HEF");
+      </script>
+    </head>
   </head>
   <body>
     <!-- header section start -->
@@ -186,6 +189,39 @@
                   <img src="images/heatmap.png" style="border-radius: 12px" />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cycle_section_2 layout_padding">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="box_main">
+                <div class="image_2">
+                  <img
+                    src="images/3dpadang.png"
+                    style="border-radius: 12px; height: 300px"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h1 class="cycles_text">3D Kota Padang</h1>
+              <p class="lorem_text">
+                Peta ini menampilkan 3D Kota Padang, dimana Pada tampilan nya
+                masih dalam pengembangan lebih lanjut.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                style="margin-top: 50px"
+              >
+                <a
+                  href="https://3dpadang.vercel.app/"
+                  style="color: white; text-decoration: none"
+                  >See the 3D Map</a
+                >
+              </button>
             </div>
           </div>
         </div>
